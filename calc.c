@@ -10,8 +10,10 @@ int main(){
     printf("Enter an operator (+,-,*,/)");
     scanf("%c", &operator);
 
-    printf("Enter two numbers: ");
-    scanf("%lf %lf", & num1 , & num2);
+    printf("Enter number 1: ");
+    scanf("%lf", & num1);
+    printf("Enter number 2: ");
+    scanf("%lf", & num2);
 
     switch(operator){   
         case '+':
